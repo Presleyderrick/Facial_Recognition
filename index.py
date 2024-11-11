@@ -6,7 +6,7 @@ import numpy as np
 known_faces_folder = "known_faces"
 
 # RTSP stream URL of the camera
-rtsp_url = "rtsp://admin:Kap5_adm!n@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1"
+rtsp_url = "rtsp://admin:admin@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1"
 
 # Get a reference to the RTSP stream
 video_capture = cv2.VideoCapture(rtsp_url)
